@@ -1,0 +1,31 @@
+- name: "sivakumar reddy m"
+  dob: "01-01-01"
+  age:21
+  adesses:
+    #object
+  - doornNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabad
+    pin: 534565
+    type: current
+
+  - doornNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabad
+    pin: 534565
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud 
+
+ - name: "ramesh"
+  dob: "01-01-01"
+  age:21
+  adesses:
+    #object
+  - doornNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabad
+    pin: 534565
+    type: current  
