@@ -1,0 +1,10 @@
+- name: variables from promt
+  hosts: local
+  connection: local # Ansible is connecting to localhost
+  vars_promt:
+- name: username
+  promt: what is your username?
+  private: false
+-name: print credentials
+ ansible.builtin. debug:
+    msg: "Hello. username is: {{ username }}"   
