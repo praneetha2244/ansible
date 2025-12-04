@@ -5,6 +5,6 @@
 - name: username
   promt: what is your username?
   private: false
--name: print credentials
- ansible.builtin. debug:
-    msg: "Hello. username is: {{ username }}"   
+- name: print credentials
+ ansible.builtin.debug:
+    msg: "Hello, username is: {{ username }}"   
